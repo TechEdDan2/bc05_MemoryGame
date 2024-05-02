@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.fuzzy-bubbles-regular {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fuzzy-bubbles-bold {
+  font-family: "Fuzzy Bubbles", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url(images/Valentines-Sky.png);
+  background-size: cover;
+}
+
+main {
+  width: 1000px;
+}
+
+h1 {
+  font-size: 4rem;
+  text-align: center;
+  color: whitesmoke;
+  text-shadow: 2px 2px 2px black;
+}
+
+#game div {
+  border: 1px solid black;
+  width: 18%;
+  height: 220px;
+  margin: 10px;
+  display: inline-block;
+  box-shadow: 5px 2px 2px grey;
+}
+
+
+section {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 4rem;
+  border: 1px solid whitesmoke;
+  background-color: rgba(131, 207, 55, 0.597);
+}
+
+h2 {
+  color: white;
+}
+
+#playAgain {
+  text-align: center;
+  padding: 1rem 1.25rem;
+}
